@@ -1,10 +1,13 @@
-## Security Checklist
+## Changelog
 
-- [ ] Authorization has been implemented across these changes
-- [ ] Injection has been prevented (parameterized queries, no eval or system calls)
-- [ ] Any web UI is escaping output (to prevent XSS)
-- [ ] Sensitive data has been identified and is being protected properly
+- [ ] #1
+- [ ] #1
+- [ ] #1
 
-## Additional Deploy Steps
+## Checklist
 
-This section lists any additional steps to deploy the PR
+- [ ] Code has been tested.
+- [ ] Migration's has been added, if any.
+- [ ] Environment variables has been added, if any.
+- [ ] Specs has been sent to druid, if any.
+- [ ] Network has been set up, if new route has been added?
